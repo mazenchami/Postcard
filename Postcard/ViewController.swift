@@ -28,6 +28,8 @@ class ViewController: UIViewController {
 
     // function for whenever the send mail button is pressed
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        // Code will evaluate when we press the button
+        
         // show hidden message label
         messageLabel.hidden = false
         // replace the label text with what is entered in the message text field
